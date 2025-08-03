@@ -17,6 +17,19 @@ npm install -g @angular/cli
 ng new buy-and-sell
 ? Would you like to add Angular routing? Yes
 ? Which stylesheet format would you like to use? (Use arrow keys): css
+
 ```
-![alt text](05-Create-Angular-Project-Buy-AND-SELL.png)
-![alt text](05-Create-Angular-Project-With-Angular-Routing-and-CSS.png.png)
+To Start the angular project
+cd  angular-fullstack-app/
+cd buy-and-sell/
+
+```
+
+to create the copmponent
+```
+ng generate component listings-page
+
+```
+Go to the app.html
+
+
