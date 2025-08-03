@@ -18,6 +18,13 @@
     ng generate component listings-page
     ```
 - Step-05-Modify the `app.component.html` to include the new component
+    ```
+    add the following line to app.component.html
+    import { ListingsPage } from './listings-page/listings-page';
+
+     imports: [RouterOutlet, ListingsPage],
+    add the following line to app.component.html
+    ```
     ```html
     <app-listings-page></app-listings-page>
     ```
