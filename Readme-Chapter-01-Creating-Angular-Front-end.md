@@ -29,3 +29,20 @@
     <app-listings-page></app-listings-page>
     ```
 - Step-06-Run the Angular application
+
+ ```
+Components
+ng generate component listings-page  /listings-page -created
+ng generate component listing-detail-page  /listings/:id -created
+ng generate component contact-page    /contact/:id -created
+ng generate component edit-listing-page  /edit-listing/:id  -created
+ng generate component my-listings-page  /my-listings 
+ng generate component new-listing-page  /new-listing
+```
+
+
+
+
+
+   
+    This command creates a new component named `listings-detail-page` in the `buy-and-sell/src/app/listings-detail-page` directory.
